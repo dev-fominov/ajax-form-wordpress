@@ -1,0 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@700&family=Roboto:wght@300;400;500&display=swap');
+
+@mixin Manrope() {
+	font-family: 'Manrope', sans-serif;
+}
+
+@mixin Roboto() {
+	font-family: 'Roboto', sans-serif;
+}
+
+$transition: all 300ms ease;

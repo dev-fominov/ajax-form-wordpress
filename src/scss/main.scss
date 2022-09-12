@@ -1,2 +1,12 @@
-@import './plagins/slick.scss';
-@import './plagins/slick-theme.scss';
+// @import './plagins/slick.scss';
+// @import './plagins/slick-theme.scss';
+
+
+// Общие файлы
+// @import './parts/reset';
+@import './parts/fonts';
+
+
+// Страницы сайта
+@import './pages/popup';
+@import './pages/register';

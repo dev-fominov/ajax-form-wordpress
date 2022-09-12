@@ -1,0 +1,60 @@
+.button {
+	button {
+		background: #0f8acc;
+		border-radius: 6px;
+		padding: 16px 20px;
+		border: 1px solid #fff;
+		font-weight: 500;
+		font-size: 18px;
+		line-height: 21px;
+		text-align: center;
+		letter-spacing: 0.005em;
+		color: #ffffff;
+		@include Roboto();
+		cursor: pointer;
+		&:hover {
+			border: 1px solid #0f8acc;
+		}
+	}
+}
+
+.button-popup {
+	text-align: center;
+	button {
+		width: 160px;
+		height: 54px;
+		background: #0f8acc;
+		border-radius: 6px;
+		border: 1px solid #fff;
+		font-weight: 500;
+		font-size: 18px;
+		line-height: 21px;
+		letter-spacing: 0.005em;
+		color: #ffffff;
+		@include Roboto();
+		cursor: pointer;
+		&:hover {
+			border: 1px solid #0f8acc;
+		}
+	}
+}
+
+.btn-pop-up {
+	button {
+		width: 225px;
+		height: 54px;
+		background: #0f8acc;
+		border-radius: 6px;
+		border: 1px solid #fff;
+		font-weight: 500;
+		font-size: 18px;
+		line-height: 21px;
+		text-align: center;
+		color: #ffffff;
+		@include Roboto();
+		cursor: pointer;
+		&:hover {
+			border: 1px solid #0f8acc;
+		}
+	}
+}
